@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Logs
+*.log
+logs/
+
+# Large dataset files (>50MB) - GitHub has 100MB file limit
+# Keep item_info.csv but exclude the large training datasets
+dataset/rl4rs_dataset_*.csv
+
+# Other large data files
+*.h5
+*.hdf5
+# Uncomment if you have large pickle files
+# *.pkl
+# *.pickle
+
+# Model checkpoints and trained models (>50MB)
+# Keep config files but exclude large model weights
+checkpoints/
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.h5
+*.pth
+*.pt
+*.ckpt
+# Keep smaller model files
+!models/*.json
+!models/*.yaml
+!models/*.yml
+
+# Experiment results and logs (>50MB)
+results/
+outputs/
+runs/
+wandb/
+tensorboard_logs/
+*.tfevents.*
+
+# But keep summary files
+!results/*.txt
+!results/*.json
+!results/*.csv
+!outputs/*.txt
+!outputs/*.json
+
+# Environment backup
+environment_backup.yml
